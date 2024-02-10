@@ -6,8 +6,8 @@ import Tag from '../Elements/Tag';
 import { slug } from 'github-slugger';
 
 const HomeCoverSection = ({blogs}) => {
-
     const sortedBlogs = sortBlogs(blogs);
+    // console.log(sortedBlogs); 
     const blog = sortedBlogs[0];
 
   return (
